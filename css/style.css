@@ -1,0 +1,92 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-color: #393e46;
+    width: 400px;
+    border-radius: 10px;
+    border: 5px solid #393e46;
+}
+
+.titulo {
+    padding: 2% 2%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: #eeeeee;
+    background-color: #222831;
+}
+
+.linha {
+    background-color: #00adb5;
+    height: 1px;
+    margin: 0px 0px 20px;
+    opacity: 80%;
+}
+
+.campo {
+    position: relative;
+    top: 10px;
+    margin: 10px;
+}
+
+.rotulo {
+    font-size: 16px;
+    padding: 2px;
+    color: #eeeeee;
+}
+
+input {
+    padding: 2px;
+    color: #204051;
+}
+
+.caixa {
+    border: 1px solid #00adb5;
+    font-size: 16px;
+    padding: 3px;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: #00adb5;
+    font-style: italic;
+    margin: 5px;
+}
+
+#txtvalor1 {
+    width: 80%;
+}
+
+#txtvalor2 {
+    width: 80%;
+}
+
+.btn input {
+    background-color: #eeeeee;
+    border-radius: 10px;
+    border: 2px solid #eeeeee;
+    display: inline-block;
+    cursor: pointer;
+    color: #00adb5;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 5px;
+    width: 43%;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn input:hover {
+    background-color: #204051;
+    border: 1px solid #204051;
+}
+
+.resultado {
+    padding: 2% 2%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    color: #eeeeee;
+    background-color: #222831;
+}
