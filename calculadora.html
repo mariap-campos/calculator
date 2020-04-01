@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="js/calculadora.js" type="text/javascript"></script>
+
+</head>
+
+<body onload="aoCarregarPagina()">
+
+    <div class="background">
+        <h1 class="titulo">Calculadora</h1>
+
+        <div class="linha"></div>
+        <div class="campo">
+            <label class="rotulo">Valor 1</label><input type="text" name="txtvalor1" id="txtvalor1" class="caixa">
+        </div>
+        <div class="campo">
+            <label class="rotulo">Valor 2</label><input type="text" name="txtvalor2" id="txtvalor2" class="caixa">
+        </div>
+        <div class="btn">
+            <input type="button" name="btnsomar" id="btnsomar" value="Somar" />
+
+            <input type="button" name="btnsub" id="btnsub" value="Subtrair" />
+
+            <input type="button" name="btnmult" id="btnmult" value="Multiplicar" />
+
+            <input type="button" name="btndiv" id="btndiv" value="Dividir" />
+        </div>
+
+        <div class="resultado">
+            <span id="lblresultado">Resultado</span>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
