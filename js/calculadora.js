@@ -14,6 +14,12 @@ function aoCarregarPagina() {
     botaodiv = document.getElementById('btndiv');
     botaodiv.addEventListener('click', dividir);
 
+    botaopotencia = document.getElementById('btnpot');
+    botaopotencia.addEventListener('click', potenciar);
+
+    botaoraiz = document.getElementById('btnraiz');
+    botaoraiz.addEventListener('click', raizquadrada);
+
 }
 
 function somar() {
@@ -65,4 +71,27 @@ function dividir() {
     var resultado = document.getElementById("lblresultado");
 
     resultado.textContent = div;
+}
+
+function potenciar() {
+
+    var valor1 = document.getElementById("txtvalor1").value;
+    var valor2 = document.getElementById("txtvalor2").value;
+
+    var pot = Math.pow(valor1, valor2);
+
+    var resultado = document.getElementById("lblresultado");
+
+    resultado.textContent = pot;
+}
+
+function raizquadrada() {
+
+    var valor1 = document.getElementById("txtvalor1").value;
+
+    var raiz = Math.sqrt(valor1);
+
+    var resultado = document.getElementById("lblresultado");
+
+    resultado.textContent = raiz;
 }
